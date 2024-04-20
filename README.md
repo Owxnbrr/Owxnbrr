@@ -11,7 +11,7 @@ from abc import ABCMeta, abstractstaticmethod
 class Owxnbrr(metaclass=ABCMeta):
     @abstractstaticmethod
     def contact():
-        return ["discord", "telegram", "root-me"]
+        return ["discord", "root-me"]
 
     @abstractstaticmethod
     def life():
@@ -22,14 +22,13 @@ class Owxnbrr(metaclass=ABCMeta):
         pass
 
 
-class Attributes(Mir0xE):
+class Attributes(Owxnbrr):
     @staticmethod
     def contact() -> tuple:
-        discord: str = "empereur_miro"
-        telegram: str = "EmpereurMiro"
-        root-me: str = "Mir0xE"
+        discord: str = "owenbrr"
+        root-me: str = "Owxn"
 
-        return discord, telegram, root-me
+        return discord, root-me
 
     @staticmethod
     def life() -> tuple:
@@ -39,7 +38,7 @@ class Attributes(Mir0xE):
 
     @staticmethod
     def coding() -> tuple:
-        text_editor = "notepad"
+        text_editor = "VScode"
         specialities = ["social engineering", "monitor"]
         langs = {"pro": "french", "intermediate": "python", "learning": "go"}
         return langs, specialities, text_editor
