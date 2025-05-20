@@ -39,8 +39,8 @@ class Attributes(Owxnbrr):
     @staticmethod
     def coding() -> tuple:
         text_editor = "VScode"
-        specialities = ["social engineering", "monitor"]
-        langs = {"pro": "french", "intermediate": "python", "learning": "go"}
+        specialities = ["web development", "UI/UX design"]
+        langs = {"native": "french", "intermediate": "python", "learning": "go"}
         return langs, specialities, text_editor
 ```
 
